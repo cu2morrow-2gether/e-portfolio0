@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Diorene Mae Moralde — E-Portfolio</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600;700&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+
+<style>
+:root{
+  --pink:#FF70BF;
+  --light:#FFD6EE;
+  --bg:#ffdff0;
+  --text:#3d2035;
+  --soft:#8a5a72;
+  --card:rgba(255,255,255,0.75);
+  --border:rgba(255,255,255,0.9);
+  --shadow:0 6px 24px rgba(255,105,180,0.15);
+}
+
+*{margin:0;padding:0;box-sizing:border-box;}
+html{scroll-behavior:smooth;}
+
+body{
+  font-family:'DM Sans',sans-serif;
+  background:var(--bg);
+  color:var(--text);
+}
+
+/* NAV */
+nav{
+  position:sticky;
+  top:10px;
+  margin:10px auto;
+  max-width:1100px;
+  display:flex;
+  justify-content:space-between;
+  padding:12px 20px;
+  background:rgba(255,255,255,0.85);
+  backdrop-filter:blur(10px);
+  border-radius:999px;
+  box-shadow:var(--shadow);
+}
+
+nav a{
+  text-decoration:none;
+  margin:0 10px;
+  color:var(--soft);
+  font-weight:600;
+}
+
+nav a:hover{
+  color:var(--pink);
+}
+
+/* SECTIONS */
+section{
+  max-width:1100px;
+  margin:60px auto;
+  padding:0 20px;
+}
+
+.card{
+  background:var(--card);
+  border:1px solid var(--border);
+  border-radius:20px;
+  padding:25px;
+  box-shadow:var(--shadow);
+}
+
+/* HEADINGS */
+h1,h2,h3{
+  font-family:'Fredoka';
+  color:var(--pink);
+}
+
+h1{font-size:3rem;}
+h2{margin-bottom:15px;}
+
+/* BOX */
+.box{
+  background:#fff;
+  border:1px solid #eee;
+  border-radius:15px;
+  padding:15px;
+  margin-bottom:15px;
+}
+
+/* FINAL IMAGE BOX */
+.image-box{
+  border:2px dashed var(--pink);
+  padding:30px;
+  text-align:center;
+  color:var(--pink);
+  border-radius:12px;
+}
+
+/* CONTACT */
+.contact{
+  background:#fff;
+  padding:15px;
+  margin-bottom:10px;
+  border-radius:12px;
+  border:1px solid #eee;
+}
+
+</style>
+</head>
+
+<body>
+
+<!-- NAV -->
+<nav>
+  <div><strong style="color:var(--pink)">✿ Portfolio</strong></div>
+  <div>
+    <a href="#home">Home</a>
+    <a href="#midterm">Midterm</a>
+    <a href="#finals">Finals</a>
+    <a href="#contact">Contact</a>
+  </div>
+</nav>
+
+<!-- HOME -->
+<section id="home">
+  <div class="card">
+    <h1>Diorene Mae Moralde</h1>
+    <p>Object-Oriented Programming E-Portfolio</p>
+  </div>
+</section>
+
+<!-- MIDTERM -->
+<section id="midterm">
+  <div class="card">
+    <h2>Midterm</h2>
+
+    <!-- QUIZZES -->
+    <div class="box">
+      <h3>Quizzes</h3>
+
+      <p><strong>Quiz 1</strong></p>
+      Score: 90<br>
+      Reflection: I learned the basics of OOP concepts.
+
+    </div>
+
+    <!-- SEATWORK -->
+    <div class="box">
+      <h3>Seatwork</h3>
+
+      <p><strong>Seatwork 1</strong></p>
+      Score: 95<br>
+      Reflection: Improved my understanding of methods.
+
+      <br><br>
+
+      <p><strong>Seatwork 2</strong></p>
+      Score: 92<br>
+      Reflection: Practiced coding logic and flow.
+    </div>
+
+    <!-- ACTIVITIES -->
+    <div class="box">
+      <h3>Activities</h3>
+
+      <p><strong>Activity 1</strong></p>
+      Name: Java ATM System<br>
+      Score: 100<br>
+      Reflection: Built my first full program.
+
+      <br><br>
+      Image: (insert screenshot here)
+
+      <hr><br>
+
+      <p><strong>Activity 2</strong></p>
+      Image: (insert screenshot here)
+
+      <br><br>
+      <p><strong>Activity 3</strong></p>
+      Image: (insert screenshot here)
+
+      <br><br>
+      <p><strong>Activity 4</strong></p>
+      Image: (insert screenshot here)
+
+      <br><br>
+      <p><strong>Activity 5</strong></p>
+      Image: (insert screenshot here)
+
+    </div>
+
+    <!-- EXAM -->
+    <div class="box">
+      <h3>Midterm Exam</h3>
+
+      Score: 88<br>
+      Reflection: Challenging but manageable exam covering OOP concepts.
+    </div>
+
+  </div>
+</section>
+
+<!-- FINALS -->
+<section id="finals">
+  <div class="card">
+    <h2>Finals (Work in Progress)</h2>
+
+    <div class="image-box">
+      INSERT FINAL PROJECT IMAGE HERE
+    </div>
+
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+  <div class="card">
+    <h2>Contact</h2>
+
+    <div class="contact">
+      <strong>Name</strong><br>
+      Diorene Mae Moralde
+    </div>
+
+    <div class="contact">
+      <strong>Gmail</strong><br>
+      dioknong95@gmail.com
+    </div>
+
+    <div class="contact">
+      <strong>PUP Webmail</strong><br>
+      diorenemaecmoralde@iskolarngbayan.pup.edu.ph
+    </div>
+
+  </div>
+</section>
+
+</body>
+</html>
